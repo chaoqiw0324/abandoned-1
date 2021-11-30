@@ -1,0 +1,16 @@
+---
+title: "model"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+```
+
+# 
+
+```{r cars}
+cdi_df <- read_csv("Final/cdi.csv")
+variable_df <- read_csv("Final/variable.csv")
+
+```
